@@ -56,6 +56,17 @@ button:hover{
     font-size: 4rem;
     font-weight: 700;
 }
-
+.accordion-container .accordion-item:not(:last-child){
+    border-bottom: 2px solid var(--light-pink);
+}
+.accordion-item .icons img{
+    min-width: 30px;
+}
+.accordion-item .icons .minus-icon{
+    display: none;
+}
+.accordion-description{
+    background-color: var(--white);
+}
 
 
